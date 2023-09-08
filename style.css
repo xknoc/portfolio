@@ -1,0 +1,137 @@
+body{
+    margin: 0%;
+}
+.cus-container{
+    margin: 0;
+    height: 350px;
+    display: flex;
+    padding: 10px;
+}
+.heros{
+    color: #fafafa;
+    background-color: #1C1E21;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:360px){
+    
+    .logo.mx-4{
+        align-self: center;
+    }
+    .logo.mx-4>img{
+        height: 40px;
+    }
+    .heros > .name1{
+        font-size: 1rem;
+    }
+    .contacts>.sub-heads,.contacts{
+        font-size: 1rem;
+    }
+
+}
+.name1{
+    margin: 0 0 10px 0;
+    padding: 0%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    align-self: flex-start;
+}
+.trainee{
+    text-decoration: underline;
+}
+.caps{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+}
+.skills{
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic
+}
+.bio{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.footer1{
+    height: 150px;
+    background-color: #1C1E21;
+    color: #E2DFCF;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.foots{
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0%;
+    justify-content: center;
+}
+hr{
+    border-top: #1C1E21 solid 10px;
+}
+.bio-content{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bott-bord{
+    color: #E2DFCF;
+    font-size: 1.3rem;
+}
+.side-gif{
+    float: right;
+    margin-left: 10px;
+}
+.skill-list{
+    height: fit-content;
+    max-width: 600px;
+}
+.sub-heads{
+    font-family:'Josefin Sans', sans-serif;
+    font-style: normal;
+}
+.mini-heads{
+    font-weight: 800;
+    font-size: large;
+    font-style: normal;
+}
+.contact-btn{
+    color: #1C1E21;
+    font-weight: 600;
+    border: #E2DFCF;
+    border-radius: 30px;
+    background-color: #E2DFCF;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+.links{
+    text-decoration: none;
+    color: #E2DFCF;
+}
+.copywrt{
+    position: absolute;
+    display: flex;
+    left: 10px;
+}
